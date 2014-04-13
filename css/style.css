@@ -1,4 +1,89 @@
-p{
-border: 2px;
-text-align: center;
+@font-face {
+	font-family:"Lobster";
+ 	src: url("/home/gerardo/Documents/Internship/INTERNSHIP-EXERCISE1/fonts/OpenSans-ExtraBold.ttf");
+    }
+section.design {
+	background-color: #fff;
+	border-style:dotted;
+	border-width:5px;
+	border-color:green;
+	border-radius:10px;
 }
+section .sample{
+	font-family:Lobster;
+	color: #009933;
+	text-shadow: #006600 -5px 5px;
+	padding-left: 25px;
+	padding-top: 10px;
+	font-size: 100px;
+	text-align: left;
+	margin-bottom: 5px;
+
+	display: inline-block;
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+
+}
+
+p
+{
+	padding-left: 5px;
+	margin-bottom: 5px;
+	margin-top: 5px;
+	font-size: 40px;
+	text-align: left;
+}
+.sample:hover{
+	
+	-webkit-transform: scale(1.1);
+  	transform: scale(2.1);
+
+}
+
+a{
+        text-decoration: none;
+
+}
+
+.navigate nav{
+	background-color: #666;
+	height: 40px;
+	border-radius: 5px;
+}
+.navigate nav ul{
+	list-style: none;
+	margin: 5px auto;
+} 
+.navigate nav ul li{
+	float: left;
+	display: inline;
+	font-color: 
+}
+
+.navigate nav a:link, .navigate nav a:visited {
+	color: #fff;
+	display: inline-block;
+	padding: 10px 25px;
+        height: 20px;
+}
+
+.navigate nav a:hover{
+        background-color: #CF5C3F;
+        text-shadow: none;
+        font-size: 20px;
+        -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: transform;
+  transition-property: transform;
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+
+
+
