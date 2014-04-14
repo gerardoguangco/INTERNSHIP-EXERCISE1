@@ -7,11 +7,8 @@
 #header{
 	background:  url("/home/gerardo/Documents/Internship/INTERNSHIP-EXERCISE1/images/gray.jpg");
 	background-size: 100%;
-	width: 1370px;
+	width: 1350px;
 	height: 180px;
-	position: absolute;
-	left: 0px;
-	top: 0px;
 	box-shadow: 0px;
 	
 }
@@ -27,13 +24,6 @@
 	margin-bottom: 0px;
 }
 
-
-
-a{
-        text-decoration: none;
-        color: #000;
-        
-}
 
 #firstNames{
 	
@@ -59,7 +49,7 @@ a{
 }
 
 #navigate{
-
+	
 	font-family:Lobster;
 
 }
@@ -80,7 +70,8 @@ a{
 
 }
 #navigate ul li a{
-	
+
+	text-decoration: none;
 	font-size: 30px;
 	color: #3C3B3F;
 
@@ -90,7 +81,7 @@ a{
         
 	display: inline-block;
 	padding: 10px 30px;
-        height: 30px;
+        height: 33px;
 }
 
 #navigate a:hover{
@@ -98,6 +89,91 @@ a{
         border-radius: 25px;
         font-size: 30px;
 }
+
+/*END OF HEADER CSS*/
+article{
+	
+	float: left;
+	margin-top: 10px;
+	clear: both;
+	width: 70%;
+
+}
+#pic{
+
+	margin: 20px 20px;
+	float: left;
+	
+
+}
+
+#mainArticle{
+	
+	background-color: #F2F2F2;
+	border-radius: 20px;
+	float: left;
+}
+
+#content{
+
+	text-align: justify;
+	margin: 20px 20px; 
+}
+
+footer{
+
+	color: #594138;
+
+}
+
+#sidebar{
+
+	text-align: center;
+	margin: 10px 0px 0px 10px;
+	padding: 0px;
+	float: right;
+	background-color: #F2F2F2;
+	border-radius: 20px;
+}
+
+#articleContent h2{
+		
+	margin-top: 0px;
+	margin-left: 10px;
+	padding: 0px;	
+}
+
+#articleContent ul li{
+		
+	margin: 0px;
+	padding: 0px;	
+}
+
+
+
+
+/*
+#mainArticle{
+
+	color: #000;
+	position: relative;
+	left: 20px;
+	top: 250px;
+	width: 50%;
+	margin: 0px;
+	
+}
+
+#mainArticle #content{
+
+	
+	color: #000;
+	padding: -50px 0px;
+	margin: -50px 0px;
+	clear: both;
+
+}
+*/
 
 /*
 .fname li{
